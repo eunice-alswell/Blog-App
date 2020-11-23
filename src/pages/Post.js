@@ -19,15 +19,20 @@ const Posts = () => {
                         .catch(function(error){console.log(error)})
                         .finally(function(){})
                 
-        },[])       
+        },[]) 
+        const fullpage =(e)=>{
+                e.preventDefault()
+                alert('viewing full page')
+        }      
         return(
                 <div className= 'white'>
                         <div>
+                                <h1>daily manner</h1>
                                 {blogs.map((blog)=>(
-                                        <div key={blog.id} className='blog'>
+                                        <div key={blog.id} className='blog'onClick={fullpage}>
                                                 <h2>{blog.title}</h2>
                                                 <p>{blog.body}</p>
-                                                <div><Like/></div>
+                                                <div className='Like'><Like/></div>
                                         </div>
                                 ))}
                                 

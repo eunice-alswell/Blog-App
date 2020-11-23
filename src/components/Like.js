@@ -3,18 +3,21 @@ import React, {useState} from 'react'
 
 function Like() {
     const[count,setCounts] = useState(0)
+    const[dislike,setDislike] = useState(0)
     const like = () => {
         setCounts(count + 1) 
     }
 
-    const dislike = () => {
-        setCounts(count - 1)
+    const downvote = () => {
+        setDislike(dislike - 1)
     }
     return (
         <div>
-            <p>{count}</p>
-            <botton onClick = {like}>Like</botton>
-            <botton onClick = {dislike}>Dislike</botton> 
+            <p className='vote-p'>{count}</p>
+            <button className='like-button' onClick={like}>Like</button>
+            <p className='vote-p'>{dislike}</p>
+            <button className='like-button' onClick={downvote}>Like</button>
+ 
         </div>
     )
 }
