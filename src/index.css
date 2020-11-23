@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(130, 173, 236);
+  background-image: url('https://images.unsplash.com/photo-1463123081488-789f998ac9c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-size: inherit;
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  padding: 60px 60px;
+  height: 100%;
+  position: relative;
+
+
+}
+
+#section {
+  background-color: rgba(22, 21, 21, 0.418);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  padding-bottom: 177px; 
+
+}
+
+.card {
+  width: 310px;
+  height: 350px;
+  margin: auto;
+  padding: 5px, 4px,1px,1px;
+  border-radius: 8px;
+  background-color:rgba(240, 228, 228, 0.863);
+  background-position: relative;
+  box-shadow: 1px 5px 10px rgba(36, 34, 34, 0.932);
+  color: black;
+  font-family: sans-serif;
+}
+h2{
+  margin-top: 70px;
+  padding-top: 15px;
+}
+.form {
+  margin-bottom: 17px;
+  white-space: normal;
+}
+
+.form-control {
+  text-align: left;
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 5px;
+  height: 35px;
+  width: 260px;
+  font-size: medium;
+  color: black;
+}
+
+#sign-up{
+  height: 700px;
+
+}
+
+.btn {
+  width: 160px;
+  border-radius: 50px;
+  border: 0;
+  padding: 9px;
+  font-size: medium;
+  background-color:rgba(17, 214, 11, 0.856);
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: rgb(147, 37, 238);
+  color:black;
+  box-shadow: 3px 7px 9px rgba(13, 13, 31, 0.658);
+}
+
+.btn:hover {
+  opacity: scale(1.0);
+}
+
+img {
+  width: 100%;
+  object-fit: scale-down;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  border-bottom: rgb(160, 46, 65);
+  border-top: rgb(160, 46, 65);
+}
+
+.login-form {
+  width: 340px;
+  margin: 0px auto;
+  font-size: 15px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+ }
+ .login-form form {
+  margin-bottom: 15px;
+  background: #dddadad7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 0;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px rgba(36, 34, 34, 0.932);
+}

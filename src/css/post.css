@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.blog h2{
+    text-shadow: 2px 2px 2px whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+.white{
+    background-color: white;
+}
