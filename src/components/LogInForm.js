@@ -8,16 +8,16 @@ function LogInForm() {
     }
     return (
         
-        <section class="container" id="section">
-            <div class="card" id='signup-card'>
+        <section className="container" id="section">
+            <div className="card" id='signup-card'>
                 <h2>LOGIN PAGE</h2>
-                <div class="form">
+                <div className="form">
                     <form >
-                        <input class="form-control" type="text" name="name" placeholder="username" required/>
+                        <input className="form-control" type="text" name="name" placeholder="username" required/>
 
-                        <input class="form-control" type="password" name="password" placeholder="password" required/>
+                        <input className="form-control" type="password" name="password" placeholder="password" required/>
 
-                        <button onClick = {handleClick} class="btn">Submit</button>
+                        <button onClick = {handleClick} className="btn">Submit</button>
                     </form>
                 </div>
 

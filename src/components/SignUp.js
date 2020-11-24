@@ -2,10 +2,10 @@ import React from 'react'
 
 function SignUpComponent() {
     const handlesigup = () =>{
-        alert('😍Sign Up Successful!')
+        alert(':) Sign Up Successful!')
     }
   return (
-    <div class="contianer" >
+    <div className="contianer" >
         <div className="login-form">
             <form>
                 <h2 className="text-center">Sign up</h2>

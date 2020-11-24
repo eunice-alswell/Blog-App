@@ -7,8 +7,9 @@ const Router = () => {
         <React.Suspense fallback={<h6>Loading...</h6>}>
             <Switch>
                 <Route path='/login' component={Pages.Login}/>
+                <Route exact path = '/login' component={Pages.Login}/>
                 <Route path='/signup' component={Pages.SignUp}/>
-                <Redirect path='/Notfound' component={Pages.Notfound}/>
+                <Redirect from='*' to='/Notfound' component={Pages.Notfound}/>
                 <Route path='/post' component={Pages.Post}/>
             </Switch>
 

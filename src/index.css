@@ -13,7 +13,7 @@ body {
   padding: 60px 60px;
   height: 100%;
   position: relative;
-
+  text-align: center;
 
 }
 
@@ -39,6 +39,7 @@ body {
   box-shadow: 1px 5px 10px rgba(36, 34, 34, 0.932);
   color: black;
   font-family: sans-serif;
+  text-align: center;
 }
 h2{
   margin-top: 70px;
@@ -109,4 +110,5 @@ img {
   padding-bottom: 5px;
   border-radius: 10px;
   box-shadow: 1px 5px 10px rgba(36, 34, 34, 0.932);
+  text-align: center;
 }
